@@ -1,0 +1,14 @@
+// pages/Report.jsx
+import React from "react";
+import DelayReportForm from "../components/DelayReportForm";
+
+export default function Report() {
+  return (
+    <>
+     <div><h1 className="text-2xl font-semibold mb-4 text-shadow-amber-50">Crowd-Sourced Delay Report</h1></div>
+    <div className="p-4">
+      <DelayReportForm />
+    </div>
+    </>
+  );
+}
