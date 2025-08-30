@@ -38,7 +38,7 @@ export default function DelayReportForm() {
       }}
     >
       <h1 className="text-5xl text-black font-semibold mb-10 mx-w-xl p-4" >Crowd-Sourced Delay Report</h1>
-    <div className="bg-gray-300 shadow-md rounded  max-w-xl mx-auto">
+  <div className="bg-gray-300 shadow-md rounded max-w-2xl w-full mx-auto px-6 py-4">
       <h2 className="text-xl font-bold mb-4">Submit Delay Report</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>

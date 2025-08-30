@@ -45,6 +45,8 @@ body {
     padding: 1rem !important;
     min-height: 100vh;
     background-attachment: scroll !important;
+  background-image: none !important;
+  background-color: #0a2342 !important; /* dark blue */
   }
   h1, h2, h3 {
     font-size: 1.3rem !important;
