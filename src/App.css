@@ -38,6 +38,28 @@ body {
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+  .responsive-bg {
+    padding: 1rem !important;
+    min-height: 100vh;
+    background-attachment: scroll !important;
+  }
+  h1, h2, h3 {
+    font-size: 1.3rem !important;
+    padding: 0.5rem !important;
+  }
+  .max-w-xl {
+    max-width: 95vw !important;
+  }
+  .bg-gray-300 {
+    padding: 0.5rem !important;
+  }
+  .p-15 {
+    padding: 1rem !important;
+  }
+}
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }

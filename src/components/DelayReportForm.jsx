@@ -27,7 +27,16 @@ export default function DelayReportForm() {
   };
 
   return (
-    <div className="p-15 min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/report.jpg')" }} >
+    <div
+      className="min-h-screen flex flex-col justify-center items-center responsive-bg"
+      style={{
+        backgroundImage: "url('/report.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: "#f9fafb"
+      }}
+    >
       <h1 className="text-5xl text-black font-semibold mb-10 mx-w-xl p-4" >Crowd-Sourced Delay Report</h1>
     <div className="bg-gray-300 shadow-md rounded  max-w-xl mx-auto">
       <h2 className="text-xl font-bold mb-4">Submit Delay Report</h2>
